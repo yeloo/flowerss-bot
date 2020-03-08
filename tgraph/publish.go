@@ -18,7 +18,7 @@ func PublishHtml(sourceTitle string, title string, rawLink string, html string) 
 	//)
 
 	html = html + fmt.Sprintf(
-		"<hr><p><a href=\"https://t.me/locrss\">LOC实时推送</a></p><p>查看原文：<a href=\"%s\">%s - %s</p>",
+		"<hr><p> <a href=\"https://t.me/locrss\"> LOC实时推送</a></p><p>查看原文：<a href=\"%s\">%s - %s</p>",
 		rawLink,
 		title,
 		sourceTitle,
